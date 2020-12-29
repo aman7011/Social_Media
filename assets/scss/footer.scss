@@ -1,0 +1,27 @@
+footer{
+    background: linear-gradient(#5f2c82,#49a09d );
+    width:100%;
+    display:flex;
+    color:rgb(238, 225, 225);
+    padding:10px 10px 5px 10px;
+
+    #copyright{
+        margin:10px 20px 5px 15px;
+        span{
+            font-size:1.5rem;
+        }
+    }
+   #link{
+       list-style:none;
+       margin-top:10px;
+       li{
+           font-size:1.1rem;
+           display:inline-block;
+           a{
+               color:white;
+               margin:10px 20px 5px 15px; 
+               text-decoration:none;
+           }
+       }
+   }
+}

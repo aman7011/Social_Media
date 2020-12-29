@@ -1,0 +1,50 @@
+#post li{
+    list-style:none;
+    background-color:white;
+    border-radius:5px;
+    padding:10px 4px 5px 15px;
+    margin-bottom:5px;
+    .content{
+        padding:5px;
+        font-size:0.9rem;
+        font-family:Georgia, serif;
+        margin-bottom:100px;
+    }
+     .delete-post-button{
+         font-size:0.8rem;
+         font-weight:bold;
+         margin-right:5px;
+     }
+      i{
+        font-size:1.1rem;
+        margin-right:5px;
+    }
+    .author{
+        margin-left:10%;
+    }
+    .toggle-like-button{
+        margin-left:2.5%;
+        color:red;
+    }
+    .post-comments{
+        form{
+            margin-left:5%;
+            .comment-bar{
+                width:40%;
+                height:27px;
+                padding:5px;
+                border:1px solid grey;
+                border-radius:5px;
+                font-family:Georgia, serif;
+                font-size:0.85rem;
+            }
+            .comment-submit{
+                font-family:Georgia, serif;
+                font-size:0.7rem;
+            }
+        }
+    }
+    .post-comments-list h6{
+        margin-bottom:25px;
+    }
+}

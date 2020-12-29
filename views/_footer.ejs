@@ -1,0 +1,17 @@
+<footer>
+    <div id="copyright">
+        <span>&copy</span>
+        <span>Codeial. All Rights Reserved</span>
+    </div>
+    <div id="link">
+        <li>
+            <a href="/">Home</a>
+        </li>
+        
+          <%  if(locals.user){ %>
+                <li> 
+                    <a href="/users/profile/<%= locals.user._id %>">Profile</a>
+           <% } %>       
+        </li>
+    </div>
+</footer>

@@ -1,0 +1,20 @@
+footer {
+  background: linear-gradient(#5f2c82, #49a09d);
+  width: 100%;
+  display: flex;
+  color: #eee1e1;
+  padding: 10px 10px 5px 10px; }
+  footer #copyright {
+    margin: 10px 20px 5px 15px; }
+    footer #copyright span {
+      font-size: 1.5rem; }
+  footer #link {
+    list-style: none;
+    margin-top: 10px; }
+    footer #link li {
+      font-size: 1.1rem;
+      display: inline-block; }
+      footer #link li a {
+        color: white;
+        margin: 10px 20px 5px 15px;
+        text-decoration: none; }

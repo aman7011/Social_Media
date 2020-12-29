@@ -1,0 +1,26 @@
+header {
+  background: linear-gradient(#5f2c82, #49a09d);
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  header #logo {
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 2.5rem; }
+    header #logo a {
+      color: white; }
+    header #logo a:hover {
+      text-decoration: none; }
+  header #nav li {
+    color: white;
+    padding: 5px;
+    margin-top: 17px;
+    display: inline-block;
+    list-style: none; }
+    header #nav li a {
+      color: white;
+      margin: 30px 28px 0px 10px;
+      text-decoration: none;
+      font-size: 1.3rem; }
